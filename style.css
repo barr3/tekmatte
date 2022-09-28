@@ -1,0 +1,146 @@
+:root {
+  --tek_mat_orange: #ff4f0f;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header_photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20em;
+}
+
+#title_holder {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  width: 7em;
+  height: 7em;
+}
+
+header {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: var(--tek_mat_orange);
+  padding-top: 1em;
+  padding-bottom: 0px;
+}
+
+#header_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+#current_page {
+  border-style: solid;
+  border-width: 0 0 3px 0px;
+  border-color: var(--tek_mat_orange);
+}
+
+.header_button {
+  padding: 0.4em;
+  
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+footer {
+  background-color: var(--tek_mat_orange);
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+
+a {
+  color: var(--tek_mat_orange);
+  text-decoration: none;
+}
+
+h1  {
+  font-size: 3.5vw;
+}
+
+h3 {
+  font-size: 1.5vw;
+}
+
+footer a {
+  color: black;
+  font-size: 1.4vw;
+  padding-top: 0.4em;
+}
+
+#footer_links {
+  padding-left: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+#instagram {
+  width: 3vw;
+  height: 3vw;
+}
+
+#nemo {
+  scale: 0.5;
+  margin: -10em;
+}
+
+.footer_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10em;
+}
+
+/*Kanske onödigt?*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.class_image {
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size:1.4vw;
+}
+
+ .credit {
+  font-size: 1vw;
+  margin-top: 0.5vw;
+  
+}
