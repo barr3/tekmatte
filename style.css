@@ -56,7 +56,7 @@ header {
 main {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
-  padding-top: 5em;
+  padding-top: 2em;
   padding-bottom: 5em;
   padding-left: 10em;
   padding-right: 10em;
@@ -69,8 +69,10 @@ footer {
   margin: 0;
   padding: 1em;
   display: flex;
-  justify-content: left;
+  justify-content: space-around;
   align-items: center;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 
@@ -109,7 +111,6 @@ footer a {
 }
 
 #footer_links {
-  padding-left: 5em;
   display: flex;
   flex-direction: column;
 }
@@ -129,7 +130,6 @@ footer a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 10em;
 }
 
 /*Kanske onödigt?*/
@@ -169,10 +169,11 @@ main {
   float: left;
 }
 
-p {
+p, li {
   font-family: 'Roboto Slab', serif;
   font-size:1.4vw;
 }
+
 
  .credit {
   font-size: 1vw;
@@ -188,4 +189,19 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   margin-top: 5em;
+}
+
+.roman {
+  list-style-type: upper-roman; 
+}
+
+.roman li {
+  font-size: 1.4vw;
+  padding-bottom: 1em;
+}
+
+.motto {
+  font-style: italic;
+  display: flex;
+  padding-left: 5em;
 }
